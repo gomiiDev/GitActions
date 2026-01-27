@@ -7,7 +7,7 @@ export default[
         },
         rules : {
             semi: ['error', 'always'],
-            quores: ['error', 'single']
+            quotes: ['error', 'single']
         }
     }
 ]
