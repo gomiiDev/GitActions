@@ -1,6 +1,6 @@
 export default[
     {
-        files : ["**/*.js"],
+        files : ['**/*.js'],
         languageOptions : {
             ecmaVersion : 'latest',
             sourceType : 'module'
@@ -10,4 +10,4 @@ export default[
             quotes: ['error', 'single']
         }
     }
-]
+];
