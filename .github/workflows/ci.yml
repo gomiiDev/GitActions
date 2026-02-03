@@ -7,8 +7,9 @@ on:
     branches: [main]
 
 jobs:
-  buil-and-test:
+  build-and-test:
     runs-on: ubuntu-latest
+
     steps:
       - name: Clonar el repositorio
         uses: actions/checkout@v4
@@ -19,14 +20,13 @@ jobs:
           node-version: '20'
 
       - name: Instalar dependencias
-        run: npm install
-      
-      - name: Lint del codigo
+        run: npm ci
+
+      - name: Lint del código
         run: npm run lint
 
       - name: Ejecutar pruebas
         run: npm test
 
       - name: Build
-        run: npm ci && npm run build
-    
+        run: npm run build
