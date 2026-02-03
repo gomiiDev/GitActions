@@ -8,3 +8,7 @@ test('Factorial de 5 debe ser 120', () => {
 test('Factorial de 0 debe ser 1', () => {
     expect(factorial(0)).toBe(1);
 }); 
+
+test('Factorial de 1 debe ser 1', () => {
+    expect(factorial(1)).toBe(1);
+});
