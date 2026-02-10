@@ -1,0 +1,17 @@
+*{
+    font-family: sans-serif;
+}
+.header{
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+.info{
+    margin: 20px;
+    padding: 20px;
+    background-color: #8d97ce;
+    text-align: center;
+}
+.lista{
+    text-align: left;
+}
