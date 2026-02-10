@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node index.js",
     "test": "jest",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test:coverage": "jest --coverage"
   },
   "type": "module",
   "keywords": [],
